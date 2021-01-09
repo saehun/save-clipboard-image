@@ -1,7 +1,7 @@
 {
   "name": "save-clipboard-image",
   "version": "1.0.0",
-  "description": "",
+  "description": "Save clipboard image to file. works in Mac OSX NodeJS",
   "license": "MIT",
   "main": "dist/lib.js",
   "types": "dist/lib.d.ts",
@@ -38,7 +38,7 @@
     "pbimage": "dist/bin.js"
   },
   "keywords": [
-    "cli", "clipboard", "image", "commandline"
+    "cli", "clipboard", "image", "commandline", "terminal", "nodejs", "utility"
   ],
   "files": [
     "dist",

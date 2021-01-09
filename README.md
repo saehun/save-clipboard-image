@@ -1,5 +1,5 @@
 # save-clipboard-image
-> Save clipboard image to file works in Mac OSX
+Save clipboard image to file. works in Mac OSX NodeJS.
 
 ## Install
 ### CLI

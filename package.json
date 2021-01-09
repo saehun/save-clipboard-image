@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "dist/lib.js",
+  "types": "dist/lib.d.ts",
   "repository": "minidonut/save-clipboard-image",
   "scripts": {
     "build": "tsc",
+    "postbuild": "scripts/postbuild.sh",
     "test": "NODE_ENV=test jest",
     "lint": "eslint . --ext .js,.ts",
     "start": "ts-node src/index.ts",
@@ -27,5 +29,19 @@
     "ts-jest": "^26.4.4",
     "ts-node": "^9.0.0",
     "typescript": "^4.1.2"
-  }
+  },
+  "dependencies": {
+    "execa": "^5.0.0",
+    "node-osascript": "^2.1.0"
+  },
+  "bin": {
+    "pbimage": "dist/bin.js"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "tsconfig.json",
+    "license",
+    "README.md"
+  ]
 }

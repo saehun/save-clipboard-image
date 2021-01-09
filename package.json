@@ -37,6 +37,9 @@
   "bin": {
     "pbimage": "dist/bin.js"
   },
+  "keywords": [
+    "cli", "clipboard", "image", "commandline"
+  ],
   "files": [
     "dist",
     "package.json",
